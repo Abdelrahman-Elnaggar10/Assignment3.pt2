@@ -1,0 +1,5 @@
+$kind: http-request
+url: ""
+method: GET
+examples: .resources/Get User By ID.resources/examples
+order: 4501119815642928

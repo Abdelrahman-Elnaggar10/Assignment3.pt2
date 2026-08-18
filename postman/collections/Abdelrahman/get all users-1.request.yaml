@@ -1,0 +1,6 @@
+$kind: http-request
+name: get all users
+url: ""
+method: GET
+examples: .resources/get all users-1.resources/examples
+order: 4498191333286144

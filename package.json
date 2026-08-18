@@ -1,0 +1,16 @@
+{
+  "name": "assignment3pt2",
+  "version": "1.0.0",
+  "description": "Simple CRUD Operations Using Express.js",
+  "main": "Assignment3pt2.js",
+  "scripts": {
+    "start": "node Assignment3pt2.js",
+    "dev": "node --watch Assignment3pt2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,24 @@
+$kind: http-example
+request:
+  url: http://localhost:3000/user/20
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    content-type: application/json; charset=utf-8
+    content-length: "34"
+    etag: W/"22-HkXBcL8i0SRQ1sjadJCxQsbs0zQ"
+    date: Tue, 18 Aug 2026 23:27:40 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "name": "hassan",
+        "age": 25,
+        "id": 20
+      }
+order: 1787095666519

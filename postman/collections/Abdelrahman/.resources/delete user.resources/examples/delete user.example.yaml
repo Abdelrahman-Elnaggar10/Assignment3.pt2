@@ -1,0 +1,22 @@
+$kind: http-example
+request:
+  url: http://localhost:3000/user/1
+  method: DELETE
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    content-type: application/json; charset=utf-8
+    content-length: "40"
+    etag: W/"28-iS+XjorDKSLBZobM1Oen1Mvryto"
+    date: Tue, 18 Aug 2026 23:13:43 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "message": "User deleted successfully."
+      }
+order: 1787094827566

@@ -1,0 +1,25 @@
+$kind: http-example
+request:
+  url: http://localhost:3000/user/getByName?name=ali
+  method: GET
+  queryParams:
+    name: ali
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    content-type: application/json; charset=utf-8
+    content-length: "23"
+    etag: W/"17-nYdTbPMR/5DJxq6r2rgxvwb2Ja0"
+    date: Tue, 18 Aug 2026 23:17:26 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "name": "ali",
+        "age": 32
+      }
+order: 2541067594303014

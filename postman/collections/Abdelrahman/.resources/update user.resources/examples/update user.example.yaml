@@ -1,0 +1,29 @@
+$kind: http-example
+request:
+  url: http://localhost:3000/user/1
+  method: PATCH
+  body:
+    type: json
+    content: "{\"name\":\"Elnaggar\",\r
+
+      \"age\":25\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    content-type: application/json; charset=utf-8
+    content-length: "40"
+    etag: W/"28-qYP6/3Ae02+jXG5h5HS0Bz04il0"
+    date: Tue, 18 Aug 2026 23:12:43 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "message": "User updated successfully."
+      }
+order: 1787094782507

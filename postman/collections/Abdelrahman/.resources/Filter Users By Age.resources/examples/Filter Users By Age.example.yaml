@@ -1,0 +1,35 @@
+$kind: http-example
+request:
+  url: http://localhost:3000/user/filter?minAge=25
+  method: GET
+  queryParams:
+    minAge: "25"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    content-type: application/json; charset=utf-8
+    content-length: "78"
+    etag: W/"4e-KQNUHceh+49SYClarlMsmC65Avk"
+    date: Tue, 18 Aug 2026 23:21:59 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      [
+        {
+          "name": "ali",
+          "age": 25
+        },
+        {
+          "name": "osama",
+          "age": 25
+        },
+        {
+          "name": "hassan",
+          "age": 25
+        }
+      ]
+order: 1787095325871

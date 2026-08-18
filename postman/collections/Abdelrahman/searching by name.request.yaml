@@ -1,0 +1,5 @@
+$kind: http-request
+url: ""
+method: GET
+examples: .resources/searching by name.resources/examples
+order: 4494612481781918
